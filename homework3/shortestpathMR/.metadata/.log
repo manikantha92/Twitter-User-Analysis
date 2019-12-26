@@ -1,0 +1,128 @@
+!SESSION 2018-10-24 03:48:44.825 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2018-10-24 03:49:08.754
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-24 03:49:08.754
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5568f81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46b49001,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-24 03:52:08.454
+!MESSAGE Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+!STACK 0
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:307)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:843)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:791)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:789)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:241)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:63)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:67)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.core 4 -1 2018-10-24 03:52:08.515
+!MESSAGE Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+!STACK 0
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:307)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:843)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:791)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:789)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:241)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:63)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:67)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-10-24 03:52:50.590
+!MESSAGE Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+!STACK 0
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:307)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:843)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:791)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:789)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:241)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:63)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:67)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.core 4 -1 2018-10-24 03:52:50.610
+!MESSAGE Unable to create project from archetype [org.apache.maven.archetypes:maven-archetype-quickstart:1.1]
+!STACK 0
+org.apache.maven.archetype.old.ArchetypeTemplateProcessingException: Unable to add module to the current project as it is not of packaging type 'pom'
+	at org.apache.maven.archetype.old.DefaultOldArchetype.createArchetype(DefaultOldArchetype.java:307)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.processOldArchetype(DefaultArchetypeGenerator.java:135)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:104)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:143)
+	at org.apache.maven.archetype.generator.DefaultArchetypeGenerator.generateArchetype(DefaultArchetypeGenerator.java:169)
+	at org.apache.maven.archetype.DefaultArchetypeManager.generateProjectFromArchetype(DefaultArchetypeManager.java:73)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects0(ProjectConfigurationManager.java:843)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:791)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$5.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.createArchetypeProjects(ProjectConfigurationManager.java:789)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$5.doCreateMavenProjects(MavenProjectWizard.java:241)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:63)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:73)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:67)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
